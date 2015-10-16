@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 13, 2014, 11:49:28 AM
+    Author     : wanger
+*/
+#score{
+    color:lightcoral;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#scorePan{
+    margin:4px 6px;
+    color: #888;
+    display: none;
+}
+
+#intro{
+    color: #888;
+    text-align: center;
+}
+
+#intro img{
+    height:250px;
+}
+
+#pan{
+    border: 1px #EEE solid;
+    background-color: #eee;
+    width:390px;
+    height:510px;
+    position:absolute;
+    left:100px;
+    top:50px;
+    box-shadow: 0px 0px 5px 1px #999;
+}
+
+#cover{
+    width: 390px;
+    height: 510px;
+    position: absolute;
+    left:400px;
+    top:50px;
+}
+
+#button{
+    width: 200px;
+    height: 36px;
+    border: 1px red solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:30px;
+    margin-left:100px;
+    background: lightpink;
+    line-height: 36px;
+    color:#555;
+}
+
+#button:hover{
+    background: rgba(254, 203, 210, 1);
+}
+/*picture used below come from Sootu,http://www.sootuu.com/material/200604/200604241584910.htm*/
+.player{
+    position: absolute;
+    width:30px;
+    height:30px;
+    background: url('images/player.png');
+}
+
+.enemy{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    background: url('images/enemy.png');
+}
+
+.bullet{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+}
+
